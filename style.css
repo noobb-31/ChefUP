@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #091136;
+    color: #333;
+}
+
+header {
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c8c8c8;
+    padding: 15px 40px;
+    flex-direction: row;
+    height: 150px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    height: 0px;
+}
+
+.logo {
+    height: 150px;
+}
+
+nav a {
+    margin-left: 45px;
+    color: #000b3d;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.banner {
+    height: 70vh;
+    background: url('https://images.unsplash.com/photo-1550547660-d9450f859349') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.4);
+    line-height: 40px;
+}
+
+
+.btn{
+    height: auto;
+    padding: 15px 20px;
+    background: #de1c1c;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.btn2{
+    padding: 5px 15px;
+    background: #de1c1c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.secao {
+    text-align: justify;
+    padding: 60px 200px;
+    color:#fff;
+    text-indent: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secao h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+
+.cardapio-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.secao h2{
+    text-align: center;
+}
+
+.item {
+    background: #fff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000020;
+    text-align: center;
+    margin: 10px;
+}
+
+.preco {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff7b00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 12px;
+    background: #ff7b00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background: #ff7b00;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+

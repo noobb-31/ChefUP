@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefUP - Foodtruck Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar">
+          <img src="img/logo.png" alt="Chef UP Logo" class="logo">
+          <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+          <button class="btn">Peça Agora</button>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="banner">
+        <h1>Hambúrgueres Sustentáveis e Cheios de Sabor</h1>
+        <p>Aproveitando ingredientes próximos da validade para reduzir desperdícios e oferecer preços acessíveis.</p>
+        <a href="#cardapio" class="btn2">Ver Cardápio</a>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="secao">
+        <h1>Sobre o ChefUP</h1>
+        <p>
+            O <strong>ChefUP</strong> é um foodtruck que transforma ingredientes que seriam descartados 
+            em deliciosos hambúrgueres artesanais. Reutilizamos alimentos próximos da data de validade, 
+            mas ainda próprios para consumo, garantindo refeições saborosas, sustentáveis e com preço justo.
+        </p><br>
+        <p>
+            A ideia, surgiu a partir de uma reflexão sobre a importância de criar soluções sustentáveis e de impacto ambiental. 
+            Nosso objetivo é reduzir o desperdício de alimentos por meio da conexão entre mercados e produtos próximos à validade, 
+            unindo responsabilidade social, inovação e sabor para construir um futuro mais justo e sustentável.
+        </p>
+
+    </section>
+
+    <section id="cardapio" class="secao">
+        <h2>Nosso Cardápio</h2>
+
+        <div class="cardapio-container">
+            <div class="item">
+                <img src='https://share.google/images/4FhUrTHEoEclNTgcc' alt="UpBurger Clássico">
+                <h3>UpBurger Clássico</h3>
+                <p>Pão artesanal, carne reaproveitada de cortes não vendidos, queijo e salada fresca.</p>
+                <span class="preco">R$ 12,00</span>
+            </div>
+
+            <div class="item">
+                <h4>VeggieUP</h4>
+                <p>Hambúrguer vegetal feito com legumes maduros, molho especial e folhas crocantes.</p>
+                <span class="preco">R$ 10,00</span>
+            </div>
+
+            <div class="item">
+                <h5>CheeseUP</h5>
+                <p>Muito queijo próximo da validade, carne suculenta e cebola caramelizada.</p>
+                <span class="preco">R$ 14,00</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="secao">
+        <h6>Contato</h6>
+        <p>Quer saber onde o nosso foodtruck estará hoje?</p>
+
+        <form id="form-contato">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>ChefUP © 2025 – Reduzindo desperdícios, aumentando sabores.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
