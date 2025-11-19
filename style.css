@@ -101,6 +101,10 @@ nav a {
     text-align: center;
 }
 
+.secao h3{
+    text-align: center;
+}
+
 .item {
     background: #fff;
     padding: 20px;
@@ -110,6 +114,10 @@ nav a {
     text-align: justify;
     margin: 10px;
     color: #333;
+}
+
+.secao h4{
+    text
 }
 
 .preco {
