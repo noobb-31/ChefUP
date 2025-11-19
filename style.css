@@ -109,6 +109,7 @@ nav a {
     box-shadow: 0 0 10px #00000020;
     text-align: center;
     margin: 10px;
+    color: #333;
 }
 
 .preco {
