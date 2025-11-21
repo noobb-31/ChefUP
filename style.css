@@ -111,13 +111,19 @@ nav a {
     width: 280px;
     border-radius: 10px;
     box-shadow: 0 0 10px #00000020;
-    text-align: justify;
+    text-align: left;
     margin: 10px;
     color: #333;
 }
 
 .secao h4{
-    text
+    text-align: center;
+}
+.secao h5{
+    text-align: center;
+}
+.secao h5{
+    text-align: center;
 }
 
 .preco {
