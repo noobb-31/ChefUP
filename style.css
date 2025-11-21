@@ -102,6 +102,7 @@ nav a {
 }
 
 .secao h3{
+    height: 50px;
     text-align: center;
 }
 
@@ -116,15 +117,6 @@ nav a {
     color: #333;
 }
 
-.secao h4{
-    text-align: center;
-}
-.secao h5{
-    text-align: center;
-}
-.secao h5{
-    text-align: center;
-}
 
 .preco {
     display: block;
@@ -139,6 +131,7 @@ form {
     max-width: 400px;
     margin-top: 20px;
 }
+
 
 input, textarea {
     margin-bottom: 10px;
