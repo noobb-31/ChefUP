@@ -101,17 +101,6 @@ nav a {
     text-align: center;
 }
 
-.secao h3{
-    text-align: center;
-}
-
-.cardapio h4{
-    text-align: center;
-}
-
-.cardapio h5{
-    text-align: center;
-}
 
 .item {
     background: #fff;
@@ -119,7 +108,7 @@ nav a {
     width: 280px;
     border-radius: 10px;
     box-shadow: 0 0 10px #00000020;
-    text-align: left;
+    text-align: center; 
     margin: 10px;
     color: #333;
 }
