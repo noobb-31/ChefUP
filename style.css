@@ -105,6 +105,14 @@ nav a {
     text-align: center;
 }
 
+.secao h4{
+    text-align: center;
+}
+
+.secao h5{
+    text-align: center;
+}
+
 .item {
     background: #fff;
     padding: 20px;
